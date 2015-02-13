@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Feb 11 20:09:59 2015
-
-@author: npmj
+DISPLAY OSGB36 IN BASEMAP WITHOUT CONVERTING THE SHAPEFILE
+USES FIONA TO READ DATA IN AND THEN REPROJECTS GEOM USING PYPROJ BEFORE DISPLAYING
 """
 import fiona
 from mpl_toolkits.basemap import Basemap
